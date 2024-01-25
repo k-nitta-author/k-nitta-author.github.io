@@ -83,6 +83,7 @@ main section{
 main .rewards_grid_item{
 
     padding: 2%;
+    max-width: 30px;
 
 }
 
