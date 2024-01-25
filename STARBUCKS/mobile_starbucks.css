@@ -73,6 +73,8 @@ main {
 main section{
 
     padding: 2%;
+    display: grid;
+    grid-template-columns: auto auto auto;
 
 }
 
@@ -81,7 +83,6 @@ main section{
 main .rewards_grid_item{
 
     padding: 2%;
-    display: block;
 }
 
 main .rewards_grid_item :hover{
