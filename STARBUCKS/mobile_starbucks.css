@@ -1,0 +1,112 @@
+html{
+    margin-bottom: 20%;
+}
+
+header{
+    background-color: red;
+    
+    min-height: 20%;
+    min-width: 100%;
+    margin: 0%;
+    margin-left: -2%;
+    margin-top: -2%;
+
+    padding: 2% 0%;
+}
+
+header .stat_section{
+
+    background-color: chartreuse;
+
+    padding: 2% 4%;
+
+
+}
+
+header .stat_section section{
+    background-color: antiquewhite;
+    display: inline-block;
+    min-width: 44%;
+
+
+    padding: 2%;
+}
+
+nav {
+    background-color: blue;
+
+    min-height: 10%;
+    min-width: 100%;
+
+
+    position: fixed;
+    
+    top: 90%;
+    left: 0%;
+}
+
+nav aside{
+    position: fixed;
+
+    
+
+    min-height: 10%;
+    min-width: 100%;
+
+    bottom: 10%;
+    
+    background-color: gray;
+}
+
+.aside_link_block{
+    display: block;
+}
+
+main {
+    background-color: green;
+    min-height: 20%;
+
+    margin-left: -2%;
+
+}
+
+main section{
+
+    padding: 2%;
+
+}
+
+
+
+main .rewards_grid_item{
+
+    padding: 2%;
+    display: block;
+}
+
+main .rewards_grid_item :hover{
+
+    background-color: fuchsia;
+}
+
+main .rewards_grid_item :nth-of-type(even){
+
+
+
+    background-color: green;
+
+
+
+}
+
+
+main .rewards_grid_item:nth-of-type(odd){
+
+
+
+    background-color: aqua;
+
+
+
+}
+
