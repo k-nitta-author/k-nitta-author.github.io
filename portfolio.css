@@ -1,10 +1,62 @@
-html{
+html, body{
     font-family: 'Courier New', Courier, monospace;
+    height: 100%;
+
+    margin: 0;
+    padding: 0;
 }
 
+#wrap{
+    height: 100%;
+}
+
+header{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+    background-color: brown;
+    align-content: space-between;
+
+}
+
+
+
+header section{
+    min-width: 50%;
+    background-color: green;
+}
+
+
+
+
+header ul{
+    list-style: none;
+    
+
+}
+
+header ul li{
+}
+
+
+main{
+    background-color: gray;
+    overflow: auto;
+    height: 100%;
+}
 
 .portfolio-links{
 
     
     background-color: aqua;
 }
+
+footer{
+
+    position: relative;
+    margin-top: 90px;
+    height: 90px;
+    background-color: red;
+    
+}
+
